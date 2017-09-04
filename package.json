@@ -1,0 +1,22 @@
+{
+  "name": "legacy-interop",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node node_modules/dojo/dojo.js load=scripts/build.js --dojoConfig config.js --release"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dojo-util": "^1.12.2",
+    "uglify-js": "^2.8.29"
+  },
+  "dependencies": {
+    "@dojo/core": "^2.0.0-beta1.4",
+    "@dojo/has": "^2.0.0-beta1.1",
+    "@dojo/i18n": "^2.0.0-beta2.3",
+    "@dojo/shim": "^2.0.0-beta1.1",
+    "cldrjs": "^0.5.0",
+    "dojo": "^1.12.2"
+  }
+}
